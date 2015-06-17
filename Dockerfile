@@ -12,6 +12,6 @@ RUN git clone https://github.com/kpadmanabhan/pact_broker; cp -r pact_broker/exa
 
 RUN chmod +x -R /usr/local
 
-CMD ["/usr/local/pact_broker/bin/rackup"]
+
 
 EXPOSE 9292
