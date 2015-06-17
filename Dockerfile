@@ -8,7 +8,6 @@ ENV PACT_BROKER_DATABASE_HOST pact-default.c4p7g8ccwlnj.ap-southeast-2.rds.amazo
 
 ENV PACT_BROKER_DATABASE_NAME broker
 
-# docker run dius/pact_broker CMD /usr/local/bin/rackup -o 0.0.0.0 -p 80
 CMD ["/usr/local/bin/rackup"]
 
 EXPOSE 9292
