@@ -12,7 +12,10 @@ RUN git clone https://github.com/kpadmanabhan/pact_broker; cp -r pact_broker/exa
 
 RUN chmod +x -R /usr/local/pact_broker
 
+WORKDIR /usr/local/pact_broker
+
+RUN bundle install
+
 EXPOSE 9292
 
-CMD ["/etc/service/app/run"]
-CMD ["/usr/local/bin/rackup"]
+ENTRYPOINT bundle exec rackup -p 9292 /usr/local/pact_broker/config.ru
