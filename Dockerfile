@@ -14,4 +14,5 @@ RUN chmod +x -R /usr/local/pact_broker
 
 EXPOSE 9292
 
-CMD ["/usr/local/pact_broker/bin/rackup"]
+CMD ["/etc/service/app/run"]
+CMD ["/usr/local/bin/rackup"]
