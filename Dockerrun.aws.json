@@ -2,7 +2,7 @@
   "AWSEBDockerrunVersion": "1",
   "Ports": [
     {
-      "hostport": "9291",
+      "hostport": "9292",
       "ContainerPort": "9292"
     }
   ]

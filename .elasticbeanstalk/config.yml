@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: staging
+    environment: live
 global:
   application_name: pact-broker
   default_ec2_keyname: pact-broker
