@@ -11,5 +11,3 @@ RUN bundle install
 EXPOSE 9292
 
 ENTRYPOINT bundle exec rackup -p 9292 -o 0.0.0.0 /usr/local/pact_broker/config.ru
-
-# todo remove pact borker from gem file
