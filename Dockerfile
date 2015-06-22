@@ -2,9 +2,7 @@ FROM ruby
 
 MAINTAINER Karthik Padmanabhan <@humblelistener>
 
-LABEL Description="This image is used to set up pact-broker" Version="1.0"
-
-RUN git clone https://github.com/kpadmanabhan/pact_broker
+RUN git clone https://github.com/kpadmanabhan/pact_broker; cp -r pact_broker /usr/local/pact_broker
 
 RUN chmod +x -R /usr/local/pact_broker
 
