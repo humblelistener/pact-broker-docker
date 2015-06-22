@@ -1,6 +1,6 @@
 FROM ruby
 
-MAINTAINER Karthik Padmanabhan <@kpadmanabhan>
+MAINTAINER Karthik Padmanabhan <@humblelistener>
 
 LABEL Description="This image is used to set up pact-broker" Version="1.0"
 
