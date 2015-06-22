@@ -2,7 +2,9 @@ FROM ruby
 
 MAINTAINER Karthik Padmanabhan <@humblelistener>
 
-RUN git clone https://github.com/kpadmanabhan/pact_broker; cp -r pact_broker /usr/local/pact_broker
+RUN mkdir -p /usr/local/pact_broker
+
+COPY . /usr/local/pact_broker
 
 RUN chmod +x -R /usr/local/pact_broker
 
