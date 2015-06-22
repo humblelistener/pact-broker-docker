@@ -2,10 +2,10 @@
 
 ## Dockerising Pact Broker
 
-For dockerizing the Pact broker, it uses [kpadmanabhan/pact_broker][pk-pact_broker] fork of [pact_broker][bs-pack_broker].
+For dockerizing the Pact broker, it uses [ruby gems][pactbroker-gem] of [pact_broker][bs-pack_broker].
 
-[pk-pact_broker]: [https://github.com/kpadmanabhan/pact_broker]
 [bs-pack_broker]: [https://github.com/bethesque/pact_broker]
+[pactbroker-gem]: [https://rubygems.org/gems/pact_broker]
 
 ## Docker registry
 Docker image [kpadmanabhan/pact-broker-docker][pact-broker-docker]
