@@ -1,0 +1,10 @@
+branch-defaults:
+  master:
+    environment: pact-broker-live
+global:
+  application_name: pact-broker
+  default_ec2_keyname: pact-broker
+  default_platform: Docker 1.6.0
+  default_region: ap-southeast-2
+  profile: eb-cli
+  sc: git

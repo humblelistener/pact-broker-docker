@@ -9,10 +9,8 @@ For dockerizing the Pact broker, it uses [ruby gems][pactbroker-gem] of [pact_br
 
 ## Docker registry
 Docker image [kpadmanabhan/pact-broker-docker][pact-broker-docker]
-[pact-broker-docker]: [https://registry.hub.docker.com/u/kpadmanabhan/pact-broker-docker/]
-[docker-reg-link]: [https://registry.hub.docker.com/u/kpadmanabhan/pact-broker-docker/]
-
-## [Docker registry link][docker-reg-link]
+[pact-broker-docker]:[https://registry.hub.docker.com/u/kpadmanabhan/pact-broker-docker/]
+[docker-reg-link]:[https://registry.hub.docker.com/u/kpadmanabhan/pact-broker-docker/]
 
 ## Deploying on aws elastic bean stalk
 
