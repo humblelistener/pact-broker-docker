@@ -18,6 +18,7 @@ app = PactBroker::App.new do | config |
   # config.auto_migrate_db = true
   # config.use_hal_browser = true
   config.database_connection = Sequel.connect(DATABASE_CREDENTIALS.merge(:logger => config.logger))
+  config.validate_database_connection_config = false
 end
 
 run app
