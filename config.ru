@@ -9,7 +9,7 @@ DATABASE_CREDENTIALS = {adapter: "postgres", user: ENV['PACT_BROKER_DATABASE_USE
 # and connection validation.
 
 use Rack::Auth::Basic, "secure" do |username, password|
-  [username, password] == ['readonly', 'readonly']
+  [username, password] == [ENV['PACT_BROKER_MASTER_USER'], ENV['PACT_BROKER_MASTER_PASS']]
 end
 
 app = PactBroker::App.new do | config |
