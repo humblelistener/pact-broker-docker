@@ -2,7 +2,7 @@
 
 ## Dockerising Pact Broker
 
-For dockerizing the Pact broker, it uses [ruby gems][pactbroker-gem] of [pact_broker][bs-pack_broker].
+It uses [Pact broker ruby gem][pactbroker-gem] created from [original pact broker repository][bs-pack_broker].
 
 [bs-pack_broker]: [https://github.com/bethesque/pact_broker]
 [pactbroker-gem]: [https://rubygems.org/gems/pact_broker]
